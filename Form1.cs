@@ -93,5 +93,10 @@ namespace FileStat
                 statRichTextBox.Text += string.Format("\nNo of times {0} appear on the file: {1}", findTextBox.Text, count);
             }
         }
+
+        private void exitButton_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
